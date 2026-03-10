@@ -520,7 +520,9 @@ button:hover{
 
    
     #paypal-form-fields-container-HNVSQ3DNFQSWU {
-        display: none;
+        pointer-events: none !important;
+        opacity: 0.5 !important;
+        user-select: none !important;
     }
     
                        
