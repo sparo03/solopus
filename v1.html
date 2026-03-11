@@ -148,7 +148,17 @@
     </div>
 
     
-    
+    <script>
+        const mainImage = document.getElementById("mainImage");
+        const thumbnails = document.querySelectorAll(".imagerowelement");
+
+        thumbnails.forEach(thumb => {
+            thumb.addEventListener("click", function () {
+                const img = this.getAttribute("data-img");
+                mainImage.style.backgroundImage = `url(${img})`;
+            });
+        });
+    </script>
     
 
     <script>

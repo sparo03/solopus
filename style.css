@@ -13,6 +13,7 @@ body {
     
     color: rgba(0, 0, 0, 1);
     background-color: white;
+    scroll-behavior: smooth;
     
     
    
@@ -133,29 +134,12 @@ header {
 .content{
     padding-top: 82px;
     /*padding-bottom: 100px;*/
-    min-height: 800px;
+    /*min-height: 800px;*/
 }
 
-.onecontent{
-    
-    
-    
-    
-    /*background-color: rgba(0, 0, 0, 0.1);*/
-    /*transition: background-size 20s linear;*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    /*aspect-ratio: 16 / 9;*/
-    width: 100%;
-    /*aspect-ratio: 1 / 1;*/
-    /*max-height: calc(100% - 20px - 82px - 20px - 10em);*/
-    height: 400px;
-    
-    
-}
+
 .two{
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 0px 20px;
     display: flex;
     
     gap: 20px;
@@ -174,9 +158,10 @@ header {
     width: 600px;
     min-width: calc(100% / 2 - 10px);
     max-width: calc(100%);
+    height: calc(100vh - 82px - 20px);
     
     
-    height: auto;
+    
     
     flex-grow: 1;
     
@@ -222,6 +207,9 @@ footer{
     
     flex-direction: row;
     align-items: flex-end;
+    justify-content: flex-end;
+
+
 
 
     background-color: rgb(255, 255, 255);
@@ -256,7 +244,7 @@ footer a{
     flex-direction: column;
     align-items: flex-end;
     margin: 20px;
-
+    flex-grow: 1;
 
 }
 .stack2{
@@ -264,15 +252,61 @@ footer a{
     flex-direction: column;
     
     margin: 20px;
+    
 
 
 }
+.imagerow{
+    
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 20px;
+    
+    
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    height: 20%;
+    min-height: 100px;
+    
+    
+}
+.imagerowelement{
+    background-color: gray;
+    width: 10em;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    background-size: contain;
+    cursor: pointer;
+}
+.onecontent{
+    
+    
+    
+    
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    /*transition: background-size 20s linear;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    /*aspect-ratio: 16 / 9;*/
+    width: 100%;
+    /*aspect-ratio: 1 / 1;*/
+    /*max-height: calc(100% - 20px - 82px - 20px - 10em);*/
+    height: 80%;
+    min-height: 400px;
 
+    
+    
+}
 .content1{
     
     display: flex;
     flex-direction: column;
-    
+    height: 100%;
 
 
 
@@ -286,7 +320,7 @@ footer a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    flex-grow: 1;
     gap: 20px;
 
     
@@ -317,30 +351,7 @@ button:hover{
     font-weight: bold;
 }
 
-.imagerow{
-    
-    display: flex;
-    margin: 20px 0 0 0;
-    gap: 20px;
-    
-    
-    overflow-y: hidden;
-    overflow-x: auto;
-    width: 100%;
-    scrollbar-width: none; 
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
-    
-    
-}
-.imagerowelement{
-    background-color: gray;
-    width: 10em;
-    height: 10em;
-    aspect-ratio: 1 / 1;
-    background-size: contain;
-    cursor: pointer;
-}
+
 
 
 .spacer{
