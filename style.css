@@ -176,7 +176,7 @@ header {
     width: 600px;
     min-width: calc(100% / 2 - 10px);
     max-width: calc(100%);
-    height: calc(100vh - 82px - 20px);
+    /*height: calc(100vh - 82px - 20px);*/
     
     
     
@@ -294,7 +294,8 @@ footer a{
 }
 .imagerowelement{
     background-color: gray;
-    width: 10em;
+    width: 200px;
+    height: 100%;
     
     aspect-ratio: 1 / 1;
     background-size: contain;
