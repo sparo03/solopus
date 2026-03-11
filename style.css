@@ -79,6 +79,24 @@ header {
     .content{
         padding-top: 139px !important;
     }
+    
+  }
+
+  @media (max-width: 550px) {
+    footer{
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+
+
+
+
+    }
+    .stack2, .stack{
+        align-items: center !important;
+
+
+    }
   }
 
 .headercontent{
@@ -269,7 +287,7 @@ footer a{
     scrollbar-width: none; 
     -ms-overflow-style: none;
     scroll-behavior: smooth;
-    height: 20%;
+    height: 200px;
     min-height: 100px;
     
     
@@ -277,7 +295,7 @@ footer a{
 .imagerowelement{
     background-color: gray;
     width: 10em;
-    height: 100%;
+    
     aspect-ratio: 1 / 1;
     background-size: contain;
     cursor: pointer;
@@ -296,7 +314,7 @@ footer a{
     width: 100%;
     /*aspect-ratio: 1 / 1;*/
     /*max-height: calc(100% - 20px - 82px - 20px - 10em);*/
-    height: 80%;
+    height: 600px;
     min-height: 400px;
 
     
