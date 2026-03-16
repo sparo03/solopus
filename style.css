@@ -562,5 +562,10 @@ button:hover{
         opacity: 0.5 !important;
         user-select: none !important;
     }
+
+    .logosvg{
+        width: 200px;
+        
+    }
     
                        
