@@ -66,7 +66,7 @@ a{
 
 header {
     width: calc(100% - 40px);
-    max-width: 2000px;
+    max-width: 1960px;
     background-color: rgba(255, 255, 255, 1);
     position: fixed;
     top: 0;
