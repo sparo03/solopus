@@ -414,9 +414,9 @@ button:hover{
 .logotext{
     
     font-weight: bold;
-    /*padding: 20px;*/
-    padding-left:20px;
-    padding-right:20px;
+    padding: 20px;
+    /*padding-left:20px;
+    padding-right:20px;*/
 }
 
 
@@ -610,7 +610,7 @@ button:hover{
     }
 
 paypal-cart-button {
-    padding: 20px;
+    /*padding: 20px;*/
 }
     
                        
