@@ -104,7 +104,7 @@ header {
 
     }
     .content1{
-        height: calc(100vh - 20px - 159px);
+        height: calc(100vh - 20px - 159px) !important;
     }
     
   }
