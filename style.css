@@ -65,7 +65,7 @@ a{
 }
 
 header {
-    width: calc(100% - 40px);
+    width: 100%;
     max-width: 1960px;
     background-color: rgba(255, 255, 255, 1);
     position: fixed;
@@ -292,6 +292,7 @@ footer a{
     flex-grow: 1;
     gap: 20px;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .stack2{
