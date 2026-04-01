@@ -282,6 +282,7 @@ footer a{
     
     
 }
+
 .stack {
     display: flex;
     flex-direction: row;
@@ -290,7 +291,8 @@ footer a{
     flex-grow: 1;
     gap: 20px;
     justify-content: flex-end;
-    }
+}
+
 .stack2{
     display: flex;
     flex-direction: column;
