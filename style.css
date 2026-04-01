@@ -207,17 +207,8 @@ header {
 .twocontent{
     width: 600px;
     min-width: calc(100% / 2 - 10px);
-    max-width: calc(100%)
-    /*height: calc(100vh - 82px - 20px);*/
-    
-    
-    
-    
+    max-width: calc(100%);
     flex-grow: 1;
-    
-    /*background-color: rgba(0, 0, 0, 0.1);*/
-
-    /*transition: background-size 20s linear;*/
     background-position: center;
     background-size:cover;
     
@@ -226,6 +217,17 @@ header {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    /*height: calc(100vh - 82px - 20px);*/
+    
+    
+    
+    
+    
+    
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+
+    /*transition: background-size 20s linear;*/
+    
 
 
     
