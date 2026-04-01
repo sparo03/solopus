@@ -345,6 +345,7 @@ footer a{
     justify-content: center;
     align-content: center;
     flex-direction: column;*/
+    flex-grow: 1;
 
 
 
