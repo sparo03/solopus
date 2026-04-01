@@ -205,18 +205,17 @@ header {
     gap: 20px;
 }
 .twocontent{
-    width: 600px;
-    min-width: calc(100% / 2 - 10px);
+    .twocontent {
+    width: 400px; /*Increase/decrease for faster content br*/
+    min-width: calc(50% - 20px);
     max-width: calc(100%);
     flex-grow: 1;
-    background-position: center;
-    background-size:cover;
-    
-    
-
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
     /*height: calc(100vh - 82px - 20px);*/
     
     
