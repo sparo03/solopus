@@ -282,14 +282,15 @@ footer a{
     
     
 }
-.stack{
+.stack {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
     margin: 20px;
     flex-grow: 1;
-
-}
+    gap: 20px;
+    justify-content: flex-end;
+    }
 .stack2{
     display: flex;
     flex-direction: column;
