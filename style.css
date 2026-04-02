@@ -87,12 +87,12 @@ header {
       justify-content: center;
     }
     .headernav{
-        justify-content: space-between !important;
-        flex-direction: column !important;
+        /*justify-content: space-between !important;
+        flex-direction: column !important;*/
         
     }
     .headercontent{
-        justify-content: center !important;
+        /*justify-content: center !important;*/
     }
     .content{
         padding-top: /*159*/82px !important;
