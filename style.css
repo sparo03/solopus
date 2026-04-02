@@ -380,7 +380,7 @@ footer a{
     height: calc(100vh - 20px - 82px);
 
 
-    max-height: 900px;
+    /*max-height: 900px;*/
     flex-grow: 1;
     
     width: 100%;
