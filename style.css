@@ -621,5 +621,8 @@ button:hover{
 paypal-cart-button {
     padding: 20px;
 }
-    
+
+#impressum, #tos, #retail, #contact {
+  scroll-margin-top: 82px;
+}
                        
