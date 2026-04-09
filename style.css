@@ -8,6 +8,13 @@
     
 }
 
+video{
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+}
+
 .textoverlay h1{
     font-weight: 400;
     font-size: large;
